@@ -1,0 +1,41 @@
+@import "_variables";
+
+html {
+  font-family: $font-open-sans;
+}
+
+a {
+  font-size: $font-size;
+}
+h1 {
+  font-size: $font-size * 3;
+  color: $primary-color;
+}
+h2 {
+  font-size: $font-size * 2.25;
+  color: darken($secondary-color, 30%);
+}
+h3 {
+  font-size: $font-size * 1.75;
+  color: $tertiary-color;
+}
+h4 {
+  font-size: $font-size * 1.45;
+  color: $quaternary-color;
+}
+h5 {
+  font-size: $font-size * 1.2;
+}
+h6 {
+  font-size: $font-size;
+}
+p {
+  font-size: $font-size * 1.2;
+}
+input, textarea, button {
+  font-size: $font-size;
+}
+
+img, input, textarea {
+  border-radius: $border-radius;
+}
