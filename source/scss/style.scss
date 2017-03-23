@@ -48,10 +48,11 @@ img, input, textarea {
   border-radius: $border-radius;
 }
 
-tbody tr:nth-child(odd) {
-   background-color: lighten($primary-color, 30%)
-}
-
-tbody tr:nth-child(even) {
-   background-color: $tertiary-color;
+tbody tr {
+  :nth-child(odd) {
+    background-color: lighten($primary-color, 30%)
+  }
+  :nth-child(even) {
+    background-color: $tertiary-color;
+  }
 }
