@@ -49,10 +49,10 @@ img, input, textarea {
 }
 
 tbody tr {
-  :nth-child(odd) {
+  &:nth-child(odd) {
     background-color: lighten($primary-color, 30%)
   }
-  :nth-child(even) {
+  &:nth-child(even) {
     background-color: $tertiary-color;
   }
 }
